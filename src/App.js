@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Header from './Header.js'
-import Footer from './Footer.js'
-import ImageS from './ImageS.js'
-import Ingredient from './Ingredient.js'
-import Recipe from './Recipe.js'
+import Header from './Components/Header.js'
+import Footer from './Components/Footer.js'
+import ImageS from './Components/ImageS.js'
+import Ingredient from './Components/Ingredient.js'
+import Recipe from './Components/Recipe.js'
 import './App.css';
 export default class App extends Component {
   render() {
