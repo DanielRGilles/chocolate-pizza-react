@@ -7,7 +7,7 @@
     box-sizing: border-box;
 
 }
-body {
+main > div {
     display: grid;
     grid-template-columns: 1fr 900px 1fr;
 }
@@ -97,4 +97,7 @@ header {
 }
 main {
     margin-top: 45px;
+}
+footer {
+  width: 100%;
 }

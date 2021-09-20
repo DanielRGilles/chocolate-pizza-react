@@ -5,13 +5,17 @@ export default class Header extends Component {
         return (
             <div>
                  <div></div>
-    <div><header>
+                
+        <div>
+        <header>
         <div className="top-left">
             <img src="logo.png" alt='logo' />
            <div className="title-head"> <div className="delicious">Delicious</div>
             <div className="best-food">the best food blog on the web.</div>
-        </div></div>
+            </div>
+        </div>
         <div></div>
+         
         <nav>
             <img src="fb-icon.png" alt='icon' />
             <img src="twit-icon.png" alt='icon' />
@@ -22,7 +26,7 @@ export default class Header extends Component {
             <img src="rss-icon.png" alt='icon' />
             <img src="mail-icon.png" alt='icon' />
         </nav>
-       
+       <div></div>
     </header>
     <hr></hr> 
             </div></div>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Ingredient extends Component {
     render() {
         return (
-            <div>
+            <div><div></div>
                 <div className="recipe">
                 <ul>
                     <li><input type="checkbox"/>1 1/2 cups milk</li>
@@ -23,7 +23,9 @@ export default class Ingredient extends Component {
                 </ul>
 
             </div>
-            <hr />
+           
+            <div></div>
+            <div></div>
             <div className="author">
                 <div><img src="van-pic.png" alt='author'/></div>
                 <div>

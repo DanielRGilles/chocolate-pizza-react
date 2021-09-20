@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class ImageS extends Component {
     render() {
         return (
-            <div>
+            <div><div></div>
                  <section className="outer-container">
             <div className="sub-head">
                 <div className="left-side">
