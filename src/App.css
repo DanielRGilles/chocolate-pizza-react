@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
-/* add home page styles here */
+
 * {
-    /* border: solid 2px black;   */
+    
     box-sizing: border-box;
 
 }
@@ -58,7 +58,7 @@ header {
 .recipe {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* background-image: url(list-bg.png); */
+    background-image: url(./list-bg.png);
     font-family: 'Mali', cursive;
 }
 .sub-head   {
@@ -100,4 +100,7 @@ main {
 }
 footer {
   width: 100%;
+}
+ul {
+  list-style-type: none;
 }
