@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Button from './Button.js'
 export default class Header extends Component {
     render() {
         return (
@@ -17,14 +17,55 @@ export default class Header extends Component {
         <div></div>
          
         <nav>
-            <img src="fb-icon.png" alt='icon' />
-            <img src="twit-icon.png" alt='icon' />
-            <img src="gp-icon.png" alt='icon' />
-            <img src="insta-icon.png" alt='icon' />
-            <img src="flic-icon.png" alt='icon' />
-            <img src="pint-icon.png" alt='icon' />
-            <img src="rss-icon.png" alt='icon' />
-            <img src="mail-icon.png" alt='icon' />
+        <Button 
+                    image={ { 
+                        srcURL: 'fb-icon.png', 
+                        alt: 'icon' 
+                    } }
+                    />
+         <Button 
+                    image={ { 
+                        srcURL: 'twit-icon.png', 
+                        alt: 'twitter icon'
+                    } }
+                    />
+            
+         <Button 
+                    image={ { 
+                        srcURL: 'gp-icon.png', 
+                        alt: 'google plus icon' 
+                    } }
+                    />
+         <Button
+            image={ { 
+                        srcURL: 'insta-icon.png', 
+                        alt: 'instagram icon' 
+                    } }
+                    />
+        <Button
+            image={ { 
+                        srcURL: 'flic-icon.png', 
+                        alt: 'flicker icon' 
+                    } }
+                    />
+        <Button
+            image={ { 
+                        srcURL: 'pint-icon.png', 
+                        alt: 'pinterest icon' 
+                    } }
+                    />
+        <Button
+            image={ { 
+                        srcURL: 'rss-icon.png', 
+                        alt: 'rss icon' 
+                    } }
+                    />
+        <Button
+            image={ { 
+                        srcURL: 'mail-icon.png', 
+                        alt: 'email icon' 
+                    } }
+                    />
         </nav>
        <div></div>
     </header>
