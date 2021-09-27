@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-
+import ButtonItem from './ButtonItem'
 export default class Button extends Component {
     render() {
         return (
-            <img src={this.props.image.srcURL} alt={this.props.image.alt}/>
+            <>
+            <ButtonItem image={this.props.image}/>
+            </>
             
         )
     }
